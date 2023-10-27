@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.first-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.first-text h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 300px;
+  font-family: 'SpongeBob Font Condensed', sans-serif;
+  background-image: linear-gradient(90deg, #ffea00, #00a8e8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+img {
+  width: 20%;
+  height: 60%;
+  margin-top: 120px;
+  image-rendering: auto;
+}
+
+.error-message {
+  text-align: center;
+}
